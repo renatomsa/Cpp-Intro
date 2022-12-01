@@ -19,6 +19,9 @@ int main()
     std::cout << "Which planet are you visiting? ";
     std::cin >> choice;
     
+
+    //Only integral values are allowed when using a switch statement. For example, if you use a double, it will not work.
+    //though it works with (int, char and enum)
     switch (choice) {
         case 1:
             enemyWeight *= 0.78;
